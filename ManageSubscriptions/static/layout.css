@@ -4,11 +4,12 @@ body{
     flex-direction: column;
     font-family: 'Instrument Sans' !important;
     padding-top: 156px !important;
-    overflow-x: hidden;
 }
 html, body {
     height: 100%;
     margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 main {
