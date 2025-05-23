@@ -1,6 +1,3 @@
-* {
-    box-sizing: border-box;
-}
 body{
     background-color: #0A0F1C !important;
     display: flex;
@@ -12,7 +9,6 @@ html, body {
     height: 100%;
     margin: 0;
     max-width: 100%;
-    overflow-x: hidden;
 }
 
 main {
