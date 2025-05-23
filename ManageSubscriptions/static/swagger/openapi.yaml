@@ -8,7 +8,7 @@ info:
     email: itsubly@gmail.com
 
 servers:
-  - url: https://subly-io.onrender.com
+  - url: https://subly-9gsq.onrender.com
     description: Production server (HTTPS)
 
 components:
