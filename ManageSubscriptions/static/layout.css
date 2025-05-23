@@ -34,7 +34,7 @@ main {
     background-color: #fcfaf9c5;
     border-radius: 28px !important;
     padding: 0px 20px !important;
-    padding-right: 0 !important;
+    padding-right: 5px !important;
     display: flex;
     align-items: center;
 }
