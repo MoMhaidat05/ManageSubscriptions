@@ -17,7 +17,7 @@ def get_plan_limit():
     
 def send_email(subject,user_email,body):
     msg = Message(subject, 
-                  sender='buisnesscybergpt05@gmail.com', 
+                  sender='sublyio@gmail.com', 
                   recipients=[user_email])
     msg.body = body
     try:
