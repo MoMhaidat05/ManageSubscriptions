@@ -149,7 +149,7 @@ def reset_subscribtions():
     subly.io Team
     '''
                                 try:
-                                    email_status = send_logs(subject='Subly - API usage for this month', user_email= 'mjalmousa2005@gmail.com', body=body, attachment_file=file_path)
+                                    email_status = send_logs(subject='Subly - API usage for this month', user_email= 'sublyio@gmail.com', body=body, attachment_file=file_path)
                                     if not email_status:
                                         with open(f'{str(datetime.now().date())}.txt', 'a') as error_file:
                                             error_file.write(f'Failed to send API logs file to {client.email}, logs file name : {csv_file_path}, time: {str(datetime.now())}')
